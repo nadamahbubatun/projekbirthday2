@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:ital,wght@0,300;0,400;0,700;1,200&family=Roboto+Slab&family=Roboto:wght@400;500&family=Square+Peg&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(black, #38073b);
+  overflow-x: hidden;
+}
+
+.parralex {
+  position: relative;
+  width: 100%;
+  height: 200vh;
+  padding: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.parralex ::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(top, #c4c2c3, transparent);
+  z-index: 1000;
+}
+
+.parralex img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#text {
+  position: absolute;
+  font-size: 4.8em;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px 10px grey;
+  bottom: "";
+}
+
+.parralex #meteorid img {
+  z-index: 100;
+}
+
+#button {
+  position: absolute;
+  font-size: 1em;
+  color: black;
+  background-color: white;
+  padding: 10px 50px;
+  border-radius: 20px;
+  text-decoration: none;
+  transform: translateY(100px);
+  z-index: -10;
+}
+.description {
+  position: relative;
+  padding: 10em;
+  background-color: #c4c2c3;
+}
+.description p {
+  font-size: 1.1em;
+}
