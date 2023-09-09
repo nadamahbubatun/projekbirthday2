@@ -10,6 +10,7 @@ window.addEventListener('scroll', () => {
 
   text.style.marginTop = value + 15 + "px";
   button.style.marginTop = value + 15 + "px";
+  stars.style.marginTop = value + 15 + "px";
 });
 
 
